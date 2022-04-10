@@ -10,11 +10,16 @@
 
 * {
   font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* ------------------Mobile Breakpoint Styles------------------ */
 
 @media only screen and (max-width: 768px) {
+  .hide {
+    display: none !important;
+  }
+
   header {
     background-image: url(/assets/img/mobile_head_bg.png);
     background-size: cover;
@@ -56,6 +61,18 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .title-link {
+    color: var(--main_orange);
+    background-image: url(/assets/img/text-bg.jpg);
+    background-repeat: repeat;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.17em;
+    font-weight: bold;
+    font-family: 'cocogoose', sans-serif;
+  }
+
   .head-description {
     padding: 20px;
     background-color: #f7f7f8;
@@ -77,6 +94,45 @@
 
   .place {
     margin-bottom: 60px;
+  }
+
+  .mobile-menu-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f8c2;
+    backdrop-filter: blur(8px);
+  }
+
+  .mobile-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+  }
+
+  .mobile-link {
+    margin-top: 40px;
+  }
+
+  .close-icon {
+    float: right;
+    padding: 20px;
+    background-color: var(--main_orange);
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+  }
+
+  .mobile-links-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
   }
 
   #main-program {
@@ -105,6 +161,20 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+  }
+
+  footer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px;
+  }
+
+  .footer-img {
+    width: 140px;
+    height: 30px;
   }
 
   .sponsore-image {
@@ -186,6 +256,11 @@
   }
 
   .fa-angle-down {
+    color: var(--main_orange);
+    margin-left: 5px;
+  }
+
+  .fa-angle-up {
     color: var(--main_orange);
     margin-left: 5px;
   }

@@ -14,7 +14,22 @@
 
 <body>
     <header>
-        <nav class="navbar isMobile">
+        <div class="mobile-menu-container hide">
+           <div class="close-icon" id="close-mobile-menu">
+            <i class="fa-solid fa-xmark fa-xl"></i>
+           </div>
+            <div class="mobile-menu">
+                
+                <ul class="mobile-links">
+                    <li class="mobile-link"><a href="/index.html" class="title-link">Home</a></li>
+                    <li class="mobile-link"><a href="/index.html#main-program" class="title-link">Main Program</a></li>
+                    <li class="mobile-link"><a href="/index.html#FeaturedSpeakers" class="title-link">Speakers</a></li>
+                    <li class="mobile-link"><a href="/index.html#sponsors" class="title-link">Partners</a></li>
+                    <li class="mobile-link"><a href="/about.html" class="title-link">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav id="open-mobile-menu" class="navbar isMobile">
             <i class="fa-solid fa-bars fa-2xl"></i>
         </nav>
         <div class="head">
@@ -124,8 +139,30 @@
                         <p class="speaker-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam fuga aperiam at </p>
                     </div>
                 </li>
+                <li class="single-speaker hidden-speaker hide">
+                    <div class="speaker-img">
+                        <img class="speaker-image" src="assets/img/speakers/speaker1.png" alt="speaker1">
+                    </div>
+                    <div class="speaker-description">
+                        <h3 class="speaker-name"> Yochai Benkler</h3>
+                        <h6 class="speaker-info"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam fuga aperiam at</h6>
+                        <div class="line-feature"></div>
+                        <p class="speaker-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam fuga aperiam at </p>
+                    </div>
+                </li>
+                <li class="single-speaker hidden-speaker hide">
+                    <div class="speaker-img">
+                        <img class="speaker-image" src="assets/img/speakers/speaker2.png" alt="speaker1">
+                    </div>
+                    <div class="speaker-description">
+                        <h3 class="speaker-name"> Yochai Benkler</h3>
+                        <h6 class="speaker-info"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam fuga aperiam at</h6>
+                        <div class="line-feature"></div>
+                        <p class="speaker-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam fuga aperiam at </p>
+                    </div>
+                </li>
             </ul>
-            <a class="btn-more" href=""> MORE <i class="fa-solid fa-angle-down"></i></a>
+            <button class="btn-more" id="btn-more" > MORE <i class="fa-solid fa-angle-down"></i></button >
         </div>
     </section>
     <section id="sponsors">
@@ -158,6 +195,14 @@
             </li>
         </ul>
     </section>
+    <footer>
+        <div class="footer-logo">
+            <img class="footer-img" src="assets/img/footer-logo.png" alt="footer-logo">
+        </div>
+        <div class="footer-infos">
+            <p>Lorem ipsum dolor sit 2015</p>
+        </div>
+    </footer>
     <script src="assets/js/index.js"></script>
 </body>
 
