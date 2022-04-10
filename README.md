@@ -13,6 +13,7 @@ you can check the online version here :
 
 - HTML
 - CSS
+- JAVASCRIPT
 ## Start
 clone git clone https://github.com/ichala/Esport-Event.git
 cd Esport-Event
