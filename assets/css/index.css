@@ -87,12 +87,20 @@
     justify-content: center;
     background-image: url(/assets/img/pattern_bg.png);
     background-repeat: repeat;
+    align-content: center;
   }
 
   .section-title {
     margin-top: 30px;
     margin-bottom: 5px;
     color: white;
+  }
+
+  .program-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
   }
 
   .line {
@@ -118,10 +126,21 @@
     background-color: #f7f7f820;
     padding: 10px;
     margin: 10px;
+    align-items: center;
   }
 
-  .program-container {
-    width: 100%;
+  .program-btn {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    background-color: var(--main_orange);
+    padding: 25px;
+    font-family: 'leto', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 25px;
   }
 
   .program-logo {
