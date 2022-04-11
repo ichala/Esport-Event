@@ -20,6 +20,10 @@
     display: none !important;
   }
 
+  .isDesktop {
+    display: none !important;
+  }
+
   header {
     background-image: url(/assets/img/mobile_head_bg.png);
     background-size: cover;
@@ -529,9 +533,96 @@
   }
 }
 
-@media only screen and (min-width: 1025px) {
+/* ------------------Desktop Breakpoint Styles------------------ */
+@media only screen and (min-width: 768px) {
   .isMobile {
     display: none !important;
+  }
+
+  .nav-desk {
+    position: sticky;
+    top: 0;
+  }
+
+  .main-btn {
+    text-decoration: none;
+    color: var(--main_orange);
+    font-weight: bold;
+    padding: 15px;
+    border: 4px solid var(--main_orange);
+  }
+
+  .desktop-nav {
+    background: #fff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .logo-icon {
+    color: var(--main_orange);
+    background-image: url(/assets/img/text-bg.jpg);
+    background-repeat: repeat;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    transform: rotate(90deg);
+  }
+
+  .title {
+    color: var(--main_orange);
+    background-image: url(/assets/img/text-bg.jpg);
+    background-repeat: repeat;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .head-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .dark-bar {
+    display: flex;
+    background-color: var(--main_dark);
+    color: white;
+    padding: 5px;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .bar-content {
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+    align-items: center;
+    margin-right: 200px;
+  }
+
+  .bar-content > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-links-desk {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-links-desk > li > a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'leto', sans-serif;
+    color: rgb(123, 121, 121);
+    font-weight: 200;
   }
 }
 
