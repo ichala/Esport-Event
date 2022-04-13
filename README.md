@@ -7,7 +7,7 @@
 
 ## Live Demo
 you can check the online version here :
- https://ichala.github.io/Esport-Event/
+https://chala.dev/Capstone/
 
 ## Built With
 
@@ -26,9 +26,7 @@ cd Esport-Event
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## Show your support
 
