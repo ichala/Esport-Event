@@ -27,7 +27,7 @@ cd Esport-Event
 - LinkedIn: [alijendoubi](https://www.linkedin.com/in/alijendoubi/)
 
 
-## 🤝 Contributing
+## 🤝  Acknolegement 
 
 Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
