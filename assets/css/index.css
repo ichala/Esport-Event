@@ -253,7 +253,6 @@
     justify-content: center;
     align-content: center;
   }
-
   footer {
     background-color: white;
     display: flex;
@@ -265,7 +264,7 @@
     justify-content: space-between;
     padding: 25px;
   }
-
+ 
   .event-container {
     display: flex;
     flex-direction: column;
@@ -767,6 +766,15 @@
     align-content: center;
   }
 
+  #Histroy_Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 40px;
+  }
+
   #FeaturedSpeakers {
     display: flex;
     flex-direction: column;
@@ -777,6 +785,14 @@
 
   #sponsors {
     background-color: var(--main_dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #Logo_Section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -797,18 +813,18 @@
     padding: 80px;
     background-image: url(/assets/img/bg-pc.png);
     background-size: cover;
-    background-size: 130%%;
+    background-size: 130%;
   }
 
-  .menu-navigator{
+  .menu-navigator {
     align-self: flex-end;
     display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
     text-align: center;
-
   }
+
   .menu-navigator > a {
     color: var(--main_dark);
     text-decoration: none;
@@ -833,7 +849,6 @@
     text-align: center;
     font-weight: bold;
     color: grey;
-    margin-bottom: 60px;
   }
 
   .description-about-2 {
@@ -892,12 +907,35 @@
     padding: 25px;
   }
 
+  .dark-f {
+    background-color: var(--main_dark) !important;
+  }
+
+  .head-logo-link {
+    text-decoration: none;
+  }
+
+  .dark-right {
+    margin-top: 20px;
+    color: white;
+  }
+
   .footer-logo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-items: center;
     align-items: center;
+  }
+
+  .adjust {
+    width: 40%;
+  }
+
+  .abt-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .speakers-list {
@@ -961,7 +999,7 @@
     border: rgba(128, 128, 128, 0.536) 1px solid;
     margin-top: 30px;
     margin-right: 10px;
-    width: 70%;
+    width: 40%;
   }
 
   .email-link {
@@ -1050,6 +1088,68 @@
     border: var(--main_orange) solid 1px;
     margin-top: 10px;
     margin-bottom: 25px;
+  }
+
+  .fw {
+    width: 80%;
+    align-content: center;
+    align-items: center;
+  }
+
+  .breaker {
+    border-top: rgba(128, 128, 128, 0.536) 0.5px solid;
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .event-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ec5242;
+    padding: 100px;
+    background-image: url(/assets/img/bg-ev.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img2 {
+    background-image: url(/assets/img/bg-ev2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .single-event {
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .event-title {
+    font-family: "leto", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .event-desc {
+    color: white;
+    font-weight: bold;
+  }
+
+  .event-list,
+  .events {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
 }
 
