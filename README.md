@@ -7,12 +7,16 @@
 
 ## Live Demo
 you can check the online version here :
- https://ichala.github.io/Esport-Event/
+https://chala.dev/
+
+## Presentation Video
+
 
 ## Built With
 
 - HTML
 - CSS
+- JAVASCRIPT
 ## Start
 clone git clone https://github.com/ichala/Esport-Event.git
 cd Esport-Event
@@ -23,11 +27,9 @@ cd Esport-Event
 - LinkedIn: [alijendoubi](https://www.linkedin.com/in/alijendoubi/)
 
 
-## 🤝 Contributing
+## 🤝  Acknolegement 
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## Show your support
 
