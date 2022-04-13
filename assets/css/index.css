@@ -1,6 +1,6 @@
 /* ------------------Font (cocogoose,Lato) Import------------------ */
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 :root {
   --main_dark: #272a31;
@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -91,7 +91,7 @@
     -webkit-text-fill-color: transparent;
     font-size: 2.17em;
     font-weight: bold;
-    font-family: 'cocogoose', sans-serif;
+    font-family: "cocogoose", sans-serif;
   }
 
   .head-description {
@@ -111,12 +111,12 @@
   }
 
   .description {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
   }
 
   .description-about {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 000.77em;
     color: rgb(99, 98, 98);
@@ -134,7 +134,7 @@
 
   .description-about-2 {
     margin-top: 40px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 000.77em;
     color: rgb(99, 98, 98);
@@ -143,7 +143,7 @@
   }
 
   .description-history-2 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 000.77em;
     color: rgb(99, 98, 98);
@@ -258,7 +258,10 @@
     background-color: white;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
     justify-content: space-between;
     padding: 25px;
   }
@@ -293,7 +296,7 @@
   }
 
   .event-title {
-    font-family: 'leto', sans-serif;
+    font-family: "leto", sans-serif;
     color: white;
     font-weight: bold;
     font-size: 2em;
@@ -501,7 +504,7 @@
     text-align: center;
     background-color: var(--main_orange);
     padding: 25px;
-    font-family: 'leto', sans-serif;
+    font-family: "leto", sans-serif;
     font-weight: bold;
     color: white;
     font-size: 16px;
@@ -543,7 +546,7 @@
     margin-inline-end: 0;
     font-weight: unset;
     line-height: 30px;
-    font-family: 'cocogoose', sans-serif;
+    font-family: "cocogoose", sans-serif;
   }
 
   p {
@@ -596,7 +599,7 @@
     margin-inline-start: 0;
     margin-inline-end: 0;
     font-weight: bold;
-    font-family: 'cocogoose', sans-serif;
+    font-family: "cocogoose", sans-serif;
   }
 }
 
@@ -687,7 +690,7 @@
   .nav-links-desk > li > a {
     margin-left: 20px;
     text-decoration: none;
-    font-family: 'leto', sans-serif;
+    font-family: "leto", sans-serif;
     color: rgb(123, 121, 121);
     font-weight: 200;
   }
@@ -746,7 +749,7 @@
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 60px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 35px;
     color: grey;
@@ -779,6 +782,80 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+  }
+
+  .title-about {
+    color: var(--main_orange);
+    margin-top: 30px;
+  }
+
+  .about-head-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 80px;
+    background-image: url(/assets/img/bg-pc.png);
+    background-size: cover;
+    background-size: 130%%;
+  }
+
+  .menu-navigator{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+
+  }
+  .menu-navigator > a {
+    color: var(--main_dark);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .arrowRight {
+    color: var(--main_orange) !important;
+  }
+
+  .menu-navigator > i {
+    color: var(--main_dark);
+    text-decoration: none;
+  }
+
+  .about-contact {
+    background-color: #f5f5f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 60px;
+  }
+
+  .description-about-2 {
+    margin-bottom: 70px;
+  }
+
+  .head-about {
+    margin-left: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .description-about {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 000.77em;
+    color: rgb(99, 98, 98);
+    line-height: 20px;
   }
 
   .speaker-image {
@@ -859,6 +936,10 @@
     margin-bottom: 4%;
   }
 
+  .about-head-tit {
+    width: 40%;
+  }
+
   .sponsor-list {
     display: flex;
     flex-direction: row;
@@ -874,6 +955,22 @@
     width: 100px;
   }
 
+  .about-head-description {
+    padding: 20px;
+    background-color: #fff;
+    border: rgba(128, 128, 128, 0.536) 1px solid;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 70%;
+  }
+
+  .email-link {
+    font-weight: bold !important;
+    color: #272a31;
+    font-size: 1.2em;
+    line-height: 30px;
+  }
+
   .single-program {
     display: flex;
     align-content: center;
@@ -883,6 +980,7 @@
     background-color: #f7f7f820;
     text-align: center;
     width: 80%;
+    padding: 30px;
   }
 
   .speaker-info {
@@ -913,7 +1011,7 @@
     align-self: center;
     justify-self: center;
     text-align: center;
-    font-family: 'leto', sans-serif;
+    font-family: "leto", sans-serif;
     color: white;
     font-size: 16px;
     text-decoration: underline;
@@ -965,7 +1063,7 @@ h2 {
   margin-inline-end: 0;
   font-weight: unset;
   line-height: 30px;
-  font-family: 'cocogoose', sans-serif;
+  font-family: "cocogoose", sans-serif;
 }
 
 p {
@@ -1018,5 +1116,5 @@ h5 {
   margin-inline-start: 0;
   margin-inline-end: 0;
   font-weight: bold;
-  font-family: 'cocogoose', sans-serif;
+  font-family: "cocogoose", sans-serif;
 }
