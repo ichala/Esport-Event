@@ -7,7 +7,7 @@
 
 ## Live Demo
 you can check the online version here :
-https://chala.dev/Capstone/
+https://chala.dev/
 
 ## Presentation Video
 
